@@ -58,7 +58,6 @@ Vectis uses a `.env` file for configuration.
 
 - If your frontend is hosted at `https://example.com`, you **MUST** set `FRONTEND_ORIGIN=https://example.com`.
 - If this is not set correctly, your browser will block requests with a "CORS Policy" error.
-- For local testing with the provided Python server, use `http://localhost:8080`.
 
 ## 3. Running the Server
 
