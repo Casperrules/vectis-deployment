@@ -24,7 +24,7 @@ Vectis is optimized for low-latency search on consumer hardware.
 
 | Operation         | Latency    | Notes                                                                  |
 | ----------------- | ---------- | ---------------------------------------------------------------------- |
-| **Hybrid Search** | **~17 ms** | Includes embedding generation + HNSW search + BM25 search + RRF merge. |
+| **Hybrid Search** | **~14 ms** | Includes embedding generation + HNSW search + BM25 search + RRF merge. |
 | **RRF Merge**     | **~12 µs** | Negligible overhead for combining results.                             |
 
 ### Comparison vs. Elasticsearch
@@ -33,10 +33,10 @@ Vectis is optimized for low-latency search on consumer hardware.
 | -------------------- | ------------ | ------------------ | ------------------- |
 | **Startup Time**     | **< 1s**     | > 10s              | **Instant**         |
 | **Memory Footprint** | **~200 MB**  | > 1 GB (JVM)       | **5x Efficiency**   |
-| **Vector Search**    | **~17 ms**   | ~50-200 ms         | **Local Execution** |
+| **Vector Search**    | **~14 ms**   | ~50-200 ms         | **Local Execution** |
 | **Deployment**       | **1 Binary** | Docker/JVM Cluster | **Simplicity**      |
 
-> _Note: Indexing throughput is ~56 docs/sec on CPU, which is optimized for personal/SMB use cases rather than massive-scale ingestion._
+> _Note: Indexing throughput is ~62 docs/sec on CPU, which is optimized for personal/SMB use cases rather than massive-scale ingestion._
 
 ## 🛠️ Installation & Usage
 
