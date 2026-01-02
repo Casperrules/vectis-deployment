@@ -38,7 +38,14 @@ Vectis is optimized for low-latency search on consumer hardware.
 
 > _Note: Indexing throughput is ~62 docs/sec on CPU, which is optimized for personal/SMB use cases rather than massive-scale ingestion._
 
-## 🛠️ Installation & Usage
+## � Documentation
+
+- **[User Guide](USER_GUIDE.md)**: Detailed instructions on installation, configuration (CORS), and usage.
+- **[Quick Start](QUICKSTART.md)**: Get up and running in 5 minutes.
+- **[Architecture](ARCHITECTURE.md)**: Deep dive into the system design.
+- **[Benchmarks](BENCHMARK_REPORT_V2.md)**: Performance analysis.
+
+## �🛠️ Installation & Usage
 
 ### 1. Start the Server
 
